@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormApp", "WinFormApp\Wi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppMVC", "WebAppMVC\WebAppMVC.csproj", "{A40D5C37-2337-47C7-9321-FC23E5B3D40C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDemo", "EventDemo\EventDemo.csproj", "{BB3BFBB8-7C84-4C42-9F54-BCDAEC4AF625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDemo", "EventDemo\EventDemo.csproj", "{BB3BFBB8-7C84-4C42-9F54-BCDAEC4AF625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-01", "Assignment-01\Assignment-01.csproj", "{53EB3515-0522-4968-AF52-F31B7A666CCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BB3BFBB8-7C84-4C42-9F54-BCDAEC4AF625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3BFBB8-7C84-4C42-9F54-BCDAEC4AF625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3BFBB8-7C84-4C42-9F54-BCDAEC4AF625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EB3515-0522-4968-AF52-F31B7A666CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EB3515-0522-4968-AF52-F31B7A666CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EB3515-0522-4968-AF52-F31B7A666CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EB3515-0522-4968-AF52-F31B7A666CCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
