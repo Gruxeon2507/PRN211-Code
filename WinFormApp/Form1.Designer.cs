@@ -199,6 +199,7 @@
             btnRemove.TabIndex = 11;
             btnRemove.Text = "<<";
             btnRemove.UseVisualStyleBackColor = false;
+            btnRemove.Click += btnRemove_Click;
             // 
             // btnLoad
             // 
@@ -209,6 +210,7 @@
             btnLoad.TabIndex = 12;
             btnLoad.Text = "LOAD";
             btnLoad.UseVisualStyleBackColor = false;
+            btnLoad.Click += btnLoad_Click;
             // 
             // btnSave
             // 
