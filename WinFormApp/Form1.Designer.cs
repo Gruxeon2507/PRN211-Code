@@ -101,6 +101,7 @@
             txtCode.Name = "txtCode";
             txtCode.Size = new Size(437, 23);
             txtCode.TabIndex = 4;
+            txtCode.TextChanged += txtCode_TextChanged;
             txtCode.Enter += txtCode_Enter;
             txtCode.Leave += txtCode_Leave;
             // 

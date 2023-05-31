@@ -126,6 +126,11 @@ namespace WinFormApp
                     map.Remove(((Student)lstStudent.SelectedItem).Code);
                 }
             }
+            else
+            {
+                MessageBox.Show("Chua chon item de xoa");
+                return;
+            }
 
         }
 
@@ -156,7 +161,7 @@ namespace WinFormApp
                             map.Add(student.Code, student.Name);
 
                         }
-                        
+
                         line = sr.ReadLine();
                     }
                     MessageBox.Show("Load Success ", "Alert", MessageBoxButtons.OK);
@@ -166,7 +171,20 @@ namespace WinFormApp
             {
                 MessageBox.Show("Load fail: " + ex.Message, "Alert", MessageBoxButtons.OK);
                 Console.WriteLine("Load fail: " + ex.Message);
-                
+
+            }
+        }
+
+        private void txtCode_TextChanged(object sender, EventArgs e)
+        {
+            foreach(Student item in data)
+            {
+                if (item.Code.Equals(txtCode.Text))
+                {
+                    txtNane.Text = item.Name;
+                    cboSubject.Text = item.Subject;
+                    numMark.Value = item.Mark;
+                }
             }
         }
     }
