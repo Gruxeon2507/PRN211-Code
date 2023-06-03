@@ -1,8 +1,0 @@
-T01	Nguyen Van An	3600000	0
-T02	Nguyen Van Binh	1000000	1
-
-T03	Nguyen Van Can	2700000	0
-T03	Nguyen Van Can	2700000	0
-T05	Nguyen Van Dat	2700000	
-
-T06	Nguyen Van Fong 2700000	0
