@@ -1,0 +1,5 @@
+1	Duc	Math	1
+2	Duc	English	1
+3	Duc	Physics	1
+4	Duc	Japanese	1
+5	123	English	2

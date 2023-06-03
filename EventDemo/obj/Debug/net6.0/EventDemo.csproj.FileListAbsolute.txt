@@ -1,0 +1,15 @@
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\bin\Debug\net6.0\EventDemo.exe
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\bin\Debug\net6.0\EventDemo.deps.json
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\bin\Debug\net6.0\EventDemo.runtimeconfig.json
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\bin\Debug\net6.0\EventDemo.dll
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\bin\Debug\net6.0\EventDemo.pdb
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.csproj.AssemblyReference.cache
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.AssemblyInfoInputs.cache
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.AssemblyInfo.cs
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.csproj.CoreCompileInputs.cache
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.dll
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\refint\EventDemo.dll
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.pdb
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\EventDemo.genruntimeconfig.cache
+E:\PRN211\Demo_PRN211_SE1723\EventDemo\obj\Debug\net6.0\ref\EventDemo.dll

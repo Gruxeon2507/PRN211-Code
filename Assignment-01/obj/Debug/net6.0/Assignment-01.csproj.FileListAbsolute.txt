@@ -1,0 +1,15 @@
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\bin\Debug\net6.0\Assignment-01.exe
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\bin\Debug\net6.0\Assignment-01.deps.json
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\bin\Debug\net6.0\Assignment-01.runtimeconfig.json
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\bin\Debug\net6.0\Assignment-01.dll
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\bin\Debug\net6.0\Assignment-01.pdb
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.csproj.AssemblyReference.cache
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.AssemblyInfoInputs.cache
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.AssemblyInfo.cs
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.csproj.CoreCompileInputs.cache
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.dll
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\refint\Assignment-01.dll
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.pdb
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\Assignment-01.genruntimeconfig.cache
+E:\PRN211\Demo_PRN211_SE1723\Assignment-01\obj\Debug\net6.0\ref\Assignment-01.dll
