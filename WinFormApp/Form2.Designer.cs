@@ -71,6 +71,7 @@
             Name = "Form2";
             Text = "Form2";
             FormClosing += Form2_FormClosing;
+            Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)numText).EndInit();
             ResumeLayout(false);
             PerformLayout();
