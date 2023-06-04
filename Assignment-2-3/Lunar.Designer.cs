@@ -74,6 +74,8 @@
             txtCalYear.Name = "txtCalYear";
             txtCalYear.Size = new Size(100, 23);
             txtCalYear.TabIndex = 9;
+            txtCalYear.Enter += txtCalYear_Enter;
+            txtCalYear.Leave += txtCalYear_Leave;
             // 
             // txtLunarYear
             // 
@@ -81,6 +83,8 @@
             txtLunarYear.Name = "txtLunarYear";
             txtLunarYear.Size = new Size(100, 23);
             txtLunarYear.TabIndex = 10;
+            txtLunarYear.Enter += txtLunarYear_Enter;
+            txtLunarYear.Leave += txtLunarYear_Leave;
             // 
             // button1
             // 
@@ -115,7 +119,7 @@
             Controls.Add(label1);
             Controls.Add(label2);
             Name = "Lunar";
-            Text = "Lunar";
+            Text = "Calendar -> Lunar";
             ResumeLayout(false);
             PerformLayout();
         }

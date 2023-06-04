@@ -48,5 +48,25 @@ namespace Assignment_2_3
         {
             Application.Exit();
         }
+
+        private void txtCalYear_Enter(object sender, EventArgs e)
+        {
+            txtCalYear.BackColor = Color.Pink;
+        }
+
+        private void txtCalYear_Leave(object sender, EventArgs e)
+        {
+            txtCalYear.BackColor = Color.White;
+        }
+
+        private void txtLunarYear_Enter(object sender, EventArgs e)
+        {
+            txtLunarYear.BackColor = Color.Pink;
+        }
+
+        private void txtLunarYear_Leave(object sender, EventArgs e)
+        {
+            txtLunarYear.BackColor = Color.White;
+        }
     }
 }
