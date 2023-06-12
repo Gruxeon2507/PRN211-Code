@@ -40,7 +40,7 @@ namespace WinForm_ADO
             {
                 if (dr.Read())
                 {
-                    dr.Close();
+                    //dr.Close();
                     MessageBox.Show("Login Success");
                     String name = getNameByAccount(txtAccount.Text);
                     frmCustomer frmCustomer = new frmCustomer(name);
@@ -52,6 +52,7 @@ namespace WinForm_ADO
                 {
                     MessageBox.Show("Login Failed");
                 }
+
             }
 
         }
@@ -60,7 +61,7 @@ namespace WinForm_ADO
         {
             String strSelect = "SELECT * FROM Users " +
              "WHERE Account = @acc";
-            String name;
+            string name="";
             SqlParameter[] parameters = {
                 new SqlParameter("@acc",txtAccount.Text),
             };
@@ -69,16 +70,17 @@ namespace WinForm_ADO
                 if (dr.Read())
                 {
                     name = dr.GetString(2);
-                    return name;
                 }
                 else
                 {
                     MessageBox.Show("Err");
 
                 }
-            }
                 
-            return "";
+
+            }
+
+            return name;
         }
     }
 }
