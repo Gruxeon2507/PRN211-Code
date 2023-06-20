@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm_ADO", "WinForm_ADO\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progress-Test-02", "Progress-Test-02\Progress-Test-02.csproj", "{38C0DAF9-BB9D-469E-8109-5AA2FA080C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm_EnityFramework", "WinForm_EnityFramework\WinForm_EnityFramework.csproj", "{BABDB64F-85B4-4093-AC6B-621AB54F008B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm_EnityFramework", "WinForm_EnityFramework\WinForm_EnityFramework.csproj", "{BABDB64F-85B4-4093-AC6B-621AB54F008B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm_EntityFramework2", "WinForm_EntityFramework2\WinForm_EntityFramework2.csproj", "{C62603B8-3784-4F1F-B642-1863D1D38BBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{BABDB64F-85B4-4093-AC6B-621AB54F008B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BABDB64F-85B4-4093-AC6B-621AB54F008B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BABDB64F-85B4-4093-AC6B-621AB54F008B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62603B8-3784-4F1F-B642-1863D1D38BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62603B8-3784-4F1F-B642-1863D1D38BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62603B8-3784-4F1F-B642-1863D1D38BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62603B8-3784-4F1F-B642-1863D1D38BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

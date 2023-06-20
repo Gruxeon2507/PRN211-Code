@@ -46,6 +46,7 @@
             btnReset = new Button();
             btnExit = new Button();
             cbnCategory = new ComboBox();
+            btnSearch = new Button();
             ((System.ComponentModel.ISupportInitialize)dgProduct).BeginInit();
             SuspendLayout();
             // 
@@ -156,28 +157,31 @@
             btnAdd.TabIndex = 13;
             btnAdd.Text = "ADD";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(191, 232);
+            btnUpdate.Location = new Point(161, 232);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(75, 23);
             btnUpdate.TabIndex = 14;
             btnUpdate.Text = "UPDATE";
             btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(352, 232);
+            btnDelete.Location = new Point(290, 232);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(75, 23);
             btnDelete.TabIndex = 15;
             btnDelete.Text = "DELETE";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(517, 232);
+            btnReset.Location = new Point(544, 232);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(75, 23);
             btnReset.TabIndex = 16;
@@ -201,11 +205,22 @@
             cbnCategory.Size = new Size(203, 23);
             cbnCategory.TabIndex = 18;
             // 
+            // btnSearch
+            // 
+            btnSearch.Location = new Point(414, 232);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(75, 23);
+            btnSearch.TabIndex = 19;
+            btnSearch.Text = "SEARCH";
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnSearch);
             Controls.Add(cbnCategory);
             Controls.Add(btnExit);
             Controls.Add(btnReset);
@@ -252,5 +267,6 @@
         private Button btnReset;
         private Button btnExit;
         private ComboBox cbnCategory;
+        private Button btnSearch;
     }
 }
