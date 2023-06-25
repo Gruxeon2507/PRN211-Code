@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progress-Test-02", "Progres
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm_EnityFramework", "WinForm_EnityFramework\WinForm_EnityFramework.csproj", "{BABDB64F-85B4-4093-AC6B-621AB54F008B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm_EntityFramework2", "WinForm_EntityFramework2\WinForm_EntityFramework2.csproj", "{C62603B8-3784-4F1F-B642-1863D1D38BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm_EntityFramework2", "WinForm_EntityFramework2\WinForm_EntityFramework2.csproj", "{C62603B8-3784-4F1F-B642-1863D1D38BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC2", "WebAppMVC2\WebAppMVC2.csproj", "{379C5ABC-0D5D-4E56-AB02-442395BB5561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{C62603B8-3784-4F1F-B642-1863D1D38BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C62603B8-3784-4F1F-B642-1863D1D38BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C62603B8-3784-4F1F-B642-1863D1D38BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379C5ABC-0D5D-4E56-AB02-442395BB5561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379C5ABC-0D5D-4E56-AB02-442395BB5561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379C5ABC-0D5D-4E56-AB02-442395BB5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379C5ABC-0D5D-4E56-AB02-442395BB5561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
