@@ -46,6 +46,8 @@
             btnSearch = new Button();
             btnReset = new Button();
             btnExit = new Button();
+            rdoMale = new RadioButton();
+            rdoFemale = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -169,6 +171,7 @@
             btnUpdate.TabIndex = 13;
             btnUpdate.Text = "UPDATE";
             btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
@@ -178,6 +181,7 @@
             btnDelete.TabIndex = 14;
             btnDelete.Text = "DELETE";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnSearch
             // 
@@ -187,6 +191,7 @@
             btnSearch.TabIndex = 15;
             btnSearch.Text = "SEARCH";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // btnReset
             // 
@@ -206,11 +211,36 @@
             btnExit.Text = "EXIT";
             btnExit.UseVisualStyleBackColor = true;
             // 
+            // rdoMale
+            // 
+            rdoMale.AutoSize = true;
+            rdoMale.Location = new Point(468, 105);
+            rdoMale.Name = "rdoMale";
+            rdoMale.Size = new Size(51, 19);
+            rdoMale.TabIndex = 18;
+            rdoMale.TabStop = true;
+            rdoMale.Text = "Male";
+            rdoMale.UseVisualStyleBackColor = true;
+            rdoMale.CheckedChanged += radioButton1_CheckedChanged;
+            // 
+            // rdoFemale
+            // 
+            rdoFemale.AutoSize = true;
+            rdoFemale.Location = new Point(537, 105);
+            rdoFemale.Name = "rdoFemale";
+            rdoFemale.Size = new Size(63, 19);
+            rdoFemale.TabIndex = 19;
+            rdoFemale.TabStop = true;
+            rdoFemale.Text = "Female";
+            rdoFemale.UseVisualStyleBackColor = true;
+            // 
             // d
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(rdoFemale);
+            Controls.Add(rdoMale);
             Controls.Add(btnExit);
             Controls.Add(btnReset);
             Controls.Add(btnSearch);
@@ -257,5 +287,7 @@
         private Button btnSearch;
         private Button btnReset;
         private Button btnExit;
+        private RadioButton rdoMale;
+        private RadioButton rdoFemale;
     }
 }
