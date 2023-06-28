@@ -54,3 +54,4 @@ E:\PRN211\Demo_PRN211_SE1723\WinForm_EnityFramework\obj\Debug\net6.0-windows\Win
 E:\PRN211\Demo_PRN211_SE1723\WinForm_EnityFramework\obj\Debug\net6.0-windows\WinForm_EnityFramework.genruntimeconfig.cache
 E:\PRN211\Demo_PRN211_SE1723\WinForm_EnityFramework\obj\Debug\net6.0-windows\ref\WinForm_EnityFramework.dll
 E:\PRN211\Demo_PRN211_SE1723\WinForm_EnityFramework\bin\Debug\net6.0-windows\appsettings.json
+E:\PRN211\Demo_PRN211_SE1723\WinForm_EnityFramework\obj\Debug\net6.0-windows\WinForm_EnityFramework.Customer.resources

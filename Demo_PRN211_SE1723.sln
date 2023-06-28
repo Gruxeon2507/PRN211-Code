@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm_EntityFramework2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC2", "WebAppMVC2\WebAppMVC2.csproj", "{379C5ABC-0D5D-4E56-AB02-442395BB5561}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC_EF", "WebAppMVC_EF\WebAppMVC_EF.csproj", "{C4CEB025-64B2-4312-B5D3-96D6F298D88F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{379C5ABC-0D5D-4E56-AB02-442395BB5561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{379C5ABC-0D5D-4E56-AB02-442395BB5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{379C5ABC-0D5D-4E56-AB02-442395BB5561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CEB025-64B2-4312-B5D3-96D6F298D88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CEB025-64B2-4312-B5D3-96D6F298D88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CEB025-64B2-4312-B5D3-96D6F298D88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CEB025-64B2-4312-B5D3-96D6F298D88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
