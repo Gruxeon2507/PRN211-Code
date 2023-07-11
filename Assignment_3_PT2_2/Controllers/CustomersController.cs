@@ -18,9 +18,9 @@ namespace Assignment_3_PT2_2.Controllers
                 {
                     string CustomerCode = dr.GetString(0);
                     string CustomerName = dr.GetString(1);
-                    string Gender = dr.GetBoolean(2).ToString();
+                    bool Gender = dr.GetBoolean(2);
                     string Address = dr.GetString(3);
-                    string DOB = dr.GetDateTime(4).ToString();
+                    DateTime DOB = dr.GetDateTime(4);
                     Customers c = new Customers(CustomerCode,CustomerName,Gender,Address,DOB);
                     customers.Add(c);
                     customersCode.Add(CustomerCode);
@@ -50,9 +50,9 @@ namespace Assignment_3_PT2_2.Controllers
                 {
                     string CustomerCode = dr.GetString(0);
                     string CustomerName = dr.GetString(1);
-                    string Gender = dr.GetBoolean(2).ToString();
+                    bool Gender = dr.GetBoolean(2);
                     string Address = dr.GetString(3);
-                    string DOB = dr.GetDateTime(4).ToString();
+                    DateTime DOB = dr.GetDateTime(4);
                     Customers c = new Customers(CustomerCode, CustomerName, Gender, Address, DOB);
                     customers.Add(c);
                     customersCode.Add(CustomerCode);
@@ -113,9 +113,9 @@ namespace Assignment_3_PT2_2.Controllers
                 {
                     string CustomerCode = dr.GetString(0);
                     string CustomerName = dr.GetString(1);
-                    string Gender = dr.GetBoolean(2).ToString();
+                    bool Gender = dr.GetBoolean(2);
                     string Address = dr.GetString(3);
-                    string DOB = dr.GetDateTime(4).ToString();
+                    DateTime DOB = dr.GetDateTime(4);
                     Customers c = new Customers(CustomerCode, CustomerName, Gender, Address, DOB);
                     customers.Add(c);
                     customersCode.Add(CustomerCode);
@@ -145,18 +145,9 @@ namespace Assignment_3_PT2_2.Controllers
             List<String> customersCode = new List<string>();
             String customerCode = model.CustomerCode;
             String query = "SELECT * FROM Customers WHERE Gender = @gender";
-            int gender;
-            if (model.Gender.Equals("Nam"))
-            {
-                gender = 1;
-            }
-            else
-            {
-                gender = 0;
-            }
             SqlParameter[] parameters = new SqlParameter[]
             {
-                new SqlParameter("@gender",gender)
+                new SqlParameter("@gender",model.Gender)
             };
             using (IDataReader dr = dp.executeQuery2(query, parameters))
             {
@@ -165,9 +156,9 @@ namespace Assignment_3_PT2_2.Controllers
                 {
                     string CustomerCode = dr.GetString(0);
                     string CustomerName = dr.GetString(1);
-                    string Gender = dr.GetBoolean(2).ToString();
+                    bool Gender = dr.GetBoolean(2); 
                     string Address = dr.GetString(3);
-                    string DOB = dr.GetDateTime(4).ToString();
+                    DateTime DOB = dr.GetDateTime(4);
                     Customers c = new Customers(CustomerCode, CustomerName, Gender, Address, DOB);
                     customers.Add(c);
                     customersCode.Add(CustomerCode);
@@ -206,9 +197,50 @@ namespace Assignment_3_PT2_2.Controllers
                 {
                     string CustomerCode = dr.GetString(0);
                     string CustomerName = dr.GetString(1);
-                    string Gender = dr.GetBoolean(2).ToString();
+                    bool Gender = dr.GetBoolean(2);
                     string Address = dr.GetString(3);
-                    string DOB = dr.GetDateTime(4).ToString();
+                    DateTime DOB = dr.GetDateTime(4);
+                    Customers c = new Customers(CustomerCode, CustomerName, Gender, Address, DOB);
+                    customers.Add(c);
+                    customersCode.Add(CustomerCode);
+                }
+
+            }
+            using (IDataReader dr = dp.executeQuery2("SELECT * FROM Customers"))
+            {
+
+                while (dr.Read())
+                {
+                    string CustomerCode = dr.GetString(0);
+                    customersCode.Add(CustomerCode);
+                }
+
+            }
+            ViewBag.customers = customers;
+            ViewBag.code = customersCode;
+            ViewBag.selected = customerCode;
+            return View("ShowFilter");
+        }
+        public IActionResult FilterByDOB(Customers model)
+        {
+            List<Customers> customers = new List<Customers>();
+            List<String> customersCode = new List<string>();
+            String customerCode = model.CustomerCode;
+            String query = "SELECT * FROM Customers WHERE DOB = @dob";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@dob",model.DOB)
+            };
+            using (IDataReader dr = dp.executeQuery2(query, parameters))
+            {
+
+                while (dr.Read())
+                {
+                    string CustomerCode = dr.GetString(0);
+                    string CustomerName = dr.GetString(1);
+                    bool Gender = dr.GetBoolean(2);
+                    string Address = dr.GetString(3);
+                    DateTime DOB = dr.GetDateTime(4);
                     Customers c = new Customers(CustomerCode, CustomerName, Gender, Address, DOB);
                     customers.Add(c);
                     customersCode.Add(CustomerCode);

@@ -4,16 +4,16 @@
     {
         public string CustomerCode { get; set; }
         public string CustomerName { get; set; }
-        public string Gender { get; set; }
+        public bool Gender { get; set; }
         public string Address { get; set; }
-        public string DOB { get; set; }
+        public DateTime DOB { get; set; }
 
         public Customers()
         {
             
         }
 
-        public Customers(string customerCode, string customerName, string gender, string address, string dOB)
+        public Customers(string customerCode, string customerName, bool gender, string address, DateTime dOB)
         {
             CustomerCode = customerCode;
             CustomerName = customerName;

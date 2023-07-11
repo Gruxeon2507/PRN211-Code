@@ -30,14 +30,14 @@
             <br />
         </div>
 
-        Gender: <input type="checkbox" asp-for="Gender" />
-        <input type="submit" value="Filter By Gender" formaction="FilterByGender" />
+        Gender: <input type="checkbox" asp-for="Gender"/>
+        <input type="submit" value="Filter By Gender" formaction="FilterByGender"/>
         <br />
         Address: <input type="text" asp-for="Address" />
         <input type="submit" value="Filter By Address" formaction="FilterByAddress" />
         <br />
         DOB: <input type="date" asp-for="DOB" />
-        <input type="submit" value="Filter By DOB" formaction="FilterByDob" />
+        <input type="submit" value="Filter By DOB" formaction="FilterByDOB" />
         <br />
 
         <input type="submit" value="Update" formaction="Update" />
@@ -58,9 +58,10 @@
                 <tr>
                     <td>@c.CustomerCode</td>
                     <td>@c.CustomerName</td>
-                    @if (c.Gender.Equals("True"))
+                    @if (c.Gender)
                     {
                         <td>Nam</td>
+                       
                     }
                     else
                     {

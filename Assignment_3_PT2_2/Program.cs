@@ -32,6 +32,11 @@ namespace Assignment_3_PT2_2
                pattern: "/FilterByAddress",
                defaults: new { controller = "Customers", action = "FilterByAddress" }
            );
+            app.MapControllerRoute(
+               name: "FilterByName",
+               pattern: "/FilterByDOB",
+               defaults: new { controller = "Customers", action = "FilterByDOB" }
+           );
             app.Run();
         }
     }
