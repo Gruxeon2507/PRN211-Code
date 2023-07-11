@@ -33,7 +33,7 @@ namespace WinForm_ADO
         DataProvider dp = new DataProvider();
         private void LoadData()
         {
-            List<Customer> data = new List<Customer>();
+            List<Customers> data = new List<Customers>();
             //lay du lieu tu bang customer va add vao data
             using (IDataReader dr = dp.executeQuery2("SELECT * FROM Customers"))
             {
@@ -44,7 +44,7 @@ namespace WinForm_ADO
                     string gender = dr.GetBoolean(3).ToString();
                     string dob = dr.GetDateTime(2).ToString();
                     string address = dr.GetString(4);
-                    Customer c = new Customer(id, name, address, gender, dob);
+                    Customers c = new Customers(id, name, address, gender, dob);
                     data.Add(c);
                 }
                 dr.Close();

@@ -12,7 +12,7 @@ namespace WebAppMVC_EF
             //app.MapGet("/", () => "Hello World!");
             app.MapControllerRoute(
                 name:"default",
-                pattern:"{controller=Product}/{action=Index}/{id?}"
+                pattern:"{controller=Product}/{acttion=Index}/{id?}"
                 );
             app.Run();
         }

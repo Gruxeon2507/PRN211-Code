@@ -1,0 +1,83 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using Assignment_3_PT2_2
+@model Customers
+<div>
+    <form id="fr" asp-action="Show" asp-controller="Customers" method="post">
+        Customer Code:
+        <select name="CustomerCode" onchange="change()">
+            @foreach (string c in ViewBag.code)
+            {
+                if (c == ViewBag.Selected)
+                {
+                    <option value="@c" selected>@c</option>
+                }
+                else
+                {
+                    <option value="@c">@c</option>
+
+                }
+            }
+        </select><br />
+
+        <div>
+            Customer name: <input type="text" asp-for="CustomerName" />
+            <input type="submit" value="Filter By Name" formaction="FilterByName" />
+            <br />
+        </div>
+
+        Gender: <input type="checkbox" asp-for="Gender" value="Nam" />
+        <input type="submit" value="Filter By Gender" formaction="FilterByGender" />
+        <br />
+        Address: <input type="text" asp-for="Address" />
+        <input type="submit" value="Filter By Address" formaction="FilterByAddress" />
+        <br />
+        DOB: <input type="date" asp-for="DOB" />
+        <input type="submit" value="Filter By DOB" formaction="FilterByDob" />
+        <br />
+        
+        <input type="submit" value="Update" formaction="Update" />
+        <input type="submit" value="Reset" formaction="Reset" />
+    </form>
+
+    <div>
+        <table border="1px">
+            <tr>
+                <td>Ma Khach Hang</td>
+                <td>Ten Khach Hang</td>
+                <td>Gioi Tinh</td>
+                <td>Dia Chi</td>
+                <td>Ngay Sinh</td>
+            </tr>
+            @foreach (Customers c in ViewBag.customers)
+            {
+                <tr>
+                    <td>@c.CustomerCode</td>
+                    <td>@c.CustomerName</td>
+                    @if (c.Gender.Equals("True"))
+                    {
+                        <td>Nam</td>
+                    }
+                    else
+                    {
+                        <td>Nu</td>
+                    }
+
+                    <td>@c.Address</td>
+                    <td>@c.DOB</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<script>
+    //Submit Form
+    function change() {
+        document.getElementById("fr").submit();
+    }
+</script>
