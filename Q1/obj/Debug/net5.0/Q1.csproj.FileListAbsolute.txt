@@ -1,0 +1,16 @@
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.csproj.AssemblyReference.cache
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.AssemblyInfoInputs.cache
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.AssemblyInfo.cs
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.csproj.CoreCompileInputs.cache
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\bin\Debug\net5.0\Q1.exe
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\bin\Debug\net5.0\Q1.deps.json
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\bin\Debug\net5.0\Q1.runtimeconfig.json
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\bin\Debug\net5.0\Q1.runtimeconfig.dev.json
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\bin\Debug\net5.0\Q1.dll
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\bin\Debug\net5.0\Q1.pdb
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.dll
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\refint\Q1.dll
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.pdb
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\Q1.genruntimeconfig.cache
+C:\PRN211\PRN211_SU22_PE_Trial\PaperNo_1\All\PE_PRN211_Trial_Given\Q1\obj\Debug\net5.0\ref\Q1.dll
