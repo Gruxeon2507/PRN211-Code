@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Order order = ViewBag.order;
+    Employee employee = ViewBag.employee;
+    OrderDetail detail = ViewBag.detail;
+    List<Product> products = ViewBag.product;
+}
+<style>
+    .bold{
+        font-weight: bold;
+    }
+
+    .header {
+        border-bottom: 1px solid gray;
+        font-weight: bold;
+    }
+    td{
+        width: 200px;
+    }
+</style>
+@using Question2.Models
+<div>
+    <h1>Details</h1>
+    <p class="bold">Order</p>
+    <table>
+        <tr>
+            <td class="bold">OrderDate</td>
+            <td>@order.OrderDate</td>
+        </tr>
+        <tr>
+            <td class="bold">RequiredDate</td>
+            <td>@order.RequiredDate</td>
+        </tr>
+        <tr>
+            <td class="bold">ShippedDate</td>
+            <td>@order.ShippedDate</td>
+        </tr>
+        <tr>
+            <td class="bold">Freight</td>
+            <td>@order.Freight</td>
+        </tr>
+        <tr>
+            <td class="bold">Employee</td>
+            <td>@employee.FirstName @employee.LastName</td>
+        </tr>
+    </table>
+    <h1>List Of Product</h1>
+    <table>
+        <tr class="bold header">
+            <td>ProductId</td>
+            <td>ProductName</td>
+            <td>Category</td>
+            <td>Quantity</td>
+        </tr>
+        @foreach(Product p in products)
+        {
+            <tr>
+                <td>@p.ProductId</td>
+                <td>@p.ProductName</td>
+                @foreach (Category c in ViewBag.category)
+                {
+                    if (p.CategoryId == c.CategoryId)
+                    {
+                        <td>@c.CategoryName</td>
+                    }
+                }
+                <td>@p.QuantityPerUnit</td>
+            </tr>
+        }
+    </table>
+</div>

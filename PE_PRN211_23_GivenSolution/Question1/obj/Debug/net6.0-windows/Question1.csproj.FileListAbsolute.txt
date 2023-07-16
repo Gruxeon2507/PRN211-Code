@@ -1,0 +1,17 @@
+E:\PE\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.exe
+E:\PE\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.deps.json
+E:\PE\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.runtimeconfig.json
+E:\PE\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.dll
+E:\PE\PE_PRN211_23_GivenSolution\Question1\bin\Debug\net6.0-windows\Question1.pdb
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.AssemblyReference.cache
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.Form1.resources
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.GenerateResource.cache
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.GeneratedMSBuildEditorConfig.editorconfig
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfoInputs.cache
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.AssemblyInfo.cs
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.csproj.CoreCompileInputs.cache
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.dll
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\refint\Question1.dll
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.pdb
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\Question1.genruntimeconfig.cache
+E:\PE\PE_PRN211_23_GivenSolution\Question1\obj\Debug\net6.0-windows\ref\Question1.dll

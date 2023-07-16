@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using Question2.Models
+<style>
+    .container{
+        display:flex;
+    }
+</style>
+<div class="container">
+    <div>
+
+        <h1>Customer</h1>
+        @foreach (Customer c in ViewBag.Customers)
+        {
+            <div class="quiz" onclick="window.location.href='/Orders/@c.CustomerId'">
+                <p>@c.ContactName</p>
+            </div>
+        }
+    </div>
+    <div>
+        <h1>List Of Order</h1>
+        <table>
+            <tr>
+                <td>OrderDate</td>
+                <td>RequiredDate</td>
+                <td>ShippedDate</td>
+                <td>Freight</td>
+                <td>Customer</td>
+                <td>Action</td>
+            </tr>
+            @foreach (Order order in ViewBag.orders)
+            {
+                <tr>
+
+                <td>@order.OrderDate</td>
+                <td>@order.RequiredDate</td>
+                <td>@order.ShippedDate</td>
+                <td>@order.Freight</td>
+                <td>@order.Customer.ContactName</td>
+                <td><a href="/Orders/Details/{id}">Details</a></td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
