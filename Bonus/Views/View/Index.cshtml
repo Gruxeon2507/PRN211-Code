@@ -1,0 +1,54 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    .container {
+        max-width: 600px;
+        margin: auto;
+        overflow: hidden;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    img{
+        width:500px;
+    }
+
+</style>
+
+<div class="container">
+    <form asp-action="Index" asp-controller="View">
+        <input type="text"value="@ViewBag.index" />
+        <Input  type="submit" value="prev" name="button">Pre</Input>
+        <div>
+            
+        @if (@ViewBag.index == 1)
+         {
+                <p>1</p>
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="Image 1">
+        }
+        @if (@ViewBag.index == 2)
+        {
+                <p>2</p>
+
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="Image 2">
+
+        }
+        @if (@ViewBag.index == 3)
+        {
+                <p>3</p>
+
+
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="Image 3">
+
+        }
+            
+        </div>
+    <Input  type="submit" value="next" name="button">Next</Input>
+    </form>
+
+
+</div>
